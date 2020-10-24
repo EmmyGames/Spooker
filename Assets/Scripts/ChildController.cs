@@ -1,7 +1,9 @@
-﻿using System.Collections;
+﻿using System;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.AI;
+using Random = UnityEngine.Random;
 
 public class ChildController : MonoBehaviour
 {
@@ -11,6 +13,8 @@ public class ChildController : MonoBehaviour
     private RaycastHit _hit;
     private FieldOfView _fieldOfView;
     public float fleeDistance;
+
+    private bool _isScared = false;
     private void Start()
     {
         _fieldOfView = GetComponent<FieldOfView>();
@@ -39,11 +43,38 @@ public class ChildController : MonoBehaviour
     {
         if (!agent.hasPath && !agent.pathPending)
         {
-            if (Random.Range(0, 500) == 1)
+            if (Random.Range(0, 100) == 1)
             {
-                var randomDestination = Random.insideUnitSphere * 12;
+                var randomDestination = Random.insideUnitSphere * 6;
                 agent.SetDestination(randomDestination);
             }
         }
+    }
+
+    private void OnTriggerStay(Collider other)
+    {
+        if (Input.GetButtonDown("Scare") && !_isScared)
+        {
+            Scare(other.transform.position);
+        }
+    }
+
+    private void Scare(Vector3 pos)
+    {
+        var distance = Vector3.Distance(transform.position, pos);
+        if (distance < 1.5f)
+        {
+            Debug.Log("large");
+        }
+        else if (distance < 2.5f)
+        {
+            Debug.Log("medium");
+        }
+        else
+        {
+            Debug.Log("small");
+        }
+
+        //_isScared = true;
     }
 }
