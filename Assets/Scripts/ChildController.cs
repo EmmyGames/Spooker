@@ -14,7 +14,7 @@ public class ChildController : MonoBehaviour
     //public float fleeDistance;
     private RaycastHit _hit;
     private FieldOfView _fieldOfView;
-    public float fleeDistance;
+    public float fleeDistance = 10f;
 
     private const float TurnSmoothTime = 1f;
     private float _turnSmoothVelocity;
@@ -26,8 +26,8 @@ public class ChildController : MonoBehaviour
     private float _distanceFromPlayer;
     
     private bool _isScared = false;
-    
-    
+
+    public GameObject[] candies;
     
     
     private void Start()
@@ -96,18 +96,22 @@ public class ChildController : MonoBehaviour
             {
                 if (_hit.collider.gameObject.name == "Player")
                 {
+                    Vector3 candyPosition = transform.position + transform.forward;
+                    GameObject candy;
                     if (_distanceFromPlayer < 1.5f)
                     {
-                        Debug.Log("large");
+                        candy = candies[2];
                     }
                     else if (_distanceFromPlayer < 2.5f)
                     {
-                        Debug.Log("medium");
+                        candy = candies[1];
                     }
                     else
                     {
-                        Debug.Log("small");
+                        candy = candies[0];
                     }
+
+                    Instantiate(candy, transform.position + transform.forward + candy.transform.position, candy.transform.rotation);
                     Flee();
                 }
             }

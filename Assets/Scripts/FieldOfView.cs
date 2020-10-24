@@ -7,7 +7,7 @@ public class FieldOfView : MonoBehaviour
 {
     public float viewRadius = 4f;
     [Range(0,360)]
-    public float viewAngle = 80f;
+    public float viewAngle = 115f;
     public GameObject player;
     
     private RaycastHit _hit;
