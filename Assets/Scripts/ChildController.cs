@@ -33,6 +33,7 @@ public class ChildController : MonoBehaviour
 
     private void Flee()
     {
+        //_isScared = true;
         var position = transform.position;
         Vector3 posDiff = position - player.transform.position;
         Vector3 destination = position + posDiff * fleeDistance;
@@ -43,6 +44,7 @@ public class ChildController : MonoBehaviour
     {
         if (!agent.hasPath && !agent.pathPending)
         {
+            //_isScared = false
             if (Random.Range(0, 100) == 1)
             {
                 var randomDestination = Random.insideUnitSphere * 6;
@@ -74,7 +76,7 @@ public class ChildController : MonoBehaviour
         {
             Debug.Log("small");
         }
-
-        //_isScared = true;
+        
+        Flee();
     }
 }
