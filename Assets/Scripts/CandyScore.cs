@@ -13,13 +13,12 @@ public class CandyScore : MonoBehaviour
         _collider = GetComponent<Collider>();
     }
 
-    private void OnTriggerEnter(Collider other)
+    private void OnCollisionEnter(Collision collision)
     {
-        if (other.gameObject.name == "Player")
+        if (collision.gameObject.name == "Player")
         {
             GameState.UpdateScore(candyScore);
-            _collider.enabled = false;
-            Destroy(gameObject, 2f);
+            Destroy(gameObject);
         }
     }
 }

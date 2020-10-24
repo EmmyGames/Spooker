@@ -9,7 +9,7 @@ using Random = UnityEngine.Random;
 public class ChildController : MonoBehaviour
 {
     public NavMeshAgent agent;
-    public GameObject player;
+    private GameObject _player;
     public Animator anim;
     
     //public float fleeDistance;
@@ -22,7 +22,7 @@ public class ChildController : MonoBehaviour
     private float _angle;
     private float _theta;
 
-    public float scareDistance = 3.5f;
+    public float scareDistance = 4f;
 
     private float _distanceFromPlayer;
     
@@ -35,13 +35,14 @@ public class ChildController : MonoBehaviour
     private void Start()
     {
         _fieldOfView = GetComponent<FieldOfView>();
-        _startPos = transform.position;
+        _startPos = new Vector3(100, 0, 100);
+        _player = GameObject.FindGameObjectWithTag("Player");
     }
 
     // Update is called once per frame
     private void Update()
     {
-        _distanceFromPlayer = Vector3.Distance(transform.position, player.transform.position);
+        _distanceFromPlayer = Vector3.Distance(transform.position, _player.transform.position);
         if (_fieldOfView.IsPlayerVisible())
             Flee();
         if (Input.GetButtonDown("Scare") && !_isScared)
@@ -61,7 +62,7 @@ public class ChildController : MonoBehaviour
         _isScared = true;
         agent.speed = 7f;
         var position = transform.position;
-        Vector3 posDiff = position - player.transform.position;
+        Vector3 posDiff = position - _player.transform.position;
         Vector3 destination = (position + posDiff * fleeDistance);
         destination = new Vector3(destination.x, 0, destination.z);
         agent.SetDestination(destination);
@@ -97,26 +98,26 @@ public class ChildController : MonoBehaviour
     {
         if (_distanceFromPlayer <= scareDistance)
         {
-            if (Physics.Raycast(transform.position + new Vector3(0,1,0), player.transform.position - transform.position, out _hit, scareDistance))
+            if (Physics.Raycast(transform.position + new Vector3(0,1,0), _player.transform.position - transform.position, out _hit, scareDistance))
             {
                 if (_hit.collider.gameObject.name == "Player")
                 {
-                    Vector3 candyPosition = transform.position + transform.forward;
+                    Vector3 candOffset = transform.position + transform.forward + new Vector3(0, 1.5f, 0);
                     GameObject candy;
-                    if (_distanceFromPlayer < 1.5f)
+                    if (_distanceFromPlayer < 1.7f)
                     {
                         candy = candies[2];
-                        Instantiate(candy, transform.position + transform.forward + candy.transform.position, candy.transform.rotation);
+                        Instantiate(candy, candOffset + candy.transform.position, candy.transform.rotation);
                     }
                     if (_distanceFromPlayer < 2.5f)
                     {
                         candy = candies[1];
-                        Instantiate(candy, transform.position + transform.forward + candy.transform.position, candy.transform.rotation);
+                        Instantiate(candy, candOffset + candy.transform.position, candy.transform.rotation);
                     }
                     if(_distanceFromPlayer < scareDistance)
                     {
                         candy = candies[0];
-                        Instantiate(candy, transform.position + transform.forward + candy.transform.position, candy.transform.rotation);
+                        Instantiate(candy, candOffset + candy.transform.position, candy.transform.rotation);
                     }
                     Flee();
                 }
