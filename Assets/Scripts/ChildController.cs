@@ -81,7 +81,7 @@ public class ChildController : MonoBehaviour
             if (rand < 3)
             {
                 anim.SetBool("isWalking", true);
-                var randomDestination = Random.insideUnitSphere * 6;
+                var randomDestination = Random.insideUnitSphere * 40;
                 //Debug.Log(randomDestination + transform.position);
                 agent.SetDestination(randomDestination + _startPos);
             }

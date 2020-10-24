@@ -8,7 +8,7 @@ public class FieldOfView : MonoBehaviour
     public float viewRadius = 4f;
     [Range(0,360)]
     public float viewAngle = 115f;
-    public GameObject player;
+    private GameObject _player;
     
     private RaycastHit _hit;
     
@@ -21,7 +21,7 @@ public class FieldOfView : MonoBehaviour
 
     public bool IsPlayerVisible()
     {
-        Vector3 directionToPlayer = (player.transform.position - transform.position).normalized;
+        Vector3 directionToPlayer = (_player.transform.position - transform.position).normalized;
         //if player is within the view angle
         if (Vector3.Angle(transform.forward, directionToPlayer) < viewAngle / 2)
         {
@@ -40,6 +40,7 @@ public class FieldOfView : MonoBehaviour
     // Start is called before the first frame update
     private void Start()
     {
+        _player = GameObject.FindGameObjectWithTag("Player");
         /*
         Mesh mesh = new Mesh();
         GetComponent<MeshFilter>().mesh = mesh;
