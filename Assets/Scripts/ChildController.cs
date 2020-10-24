@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections;
 using System.Collections.Generic;
+using System.Security.Cryptography;
 using UnityEngine;
 using UnityEngine.AI;
 using Random = UnityEngine.Random;
@@ -28,11 +29,13 @@ public class ChildController : MonoBehaviour
     private bool _isScared = false;
 
     public GameObject[] candies;
-    
+
+    private Vector3 _startPos;
     
     private void Start()
     {
         _fieldOfView = GetComponent<FieldOfView>();
+        _startPos = transform.position;
     }
 
     // Update is called once per frame
@@ -73,11 +76,13 @@ public class ChildController : MonoBehaviour
             agent.speed = 3.5f;
             _isScared = false;
             int rand = Random.Range(1, 301);
+            //Debug.Log(rand);
             if (rand < 3)
             {
                 anim.SetBool("isWalking", true);
                 var randomDestination = Random.insideUnitSphere * 6;
-                agent.SetDestination(randomDestination);
+                //Debug.Log(randomDestination + transform.position);
+                agent.SetDestination(randomDestination + _startPos);
             }
             else if (rand > 296)
             {
@@ -101,17 +106,18 @@ public class ChildController : MonoBehaviour
                     if (_distanceFromPlayer < 1.5f)
                     {
                         candy = candies[2];
+                        Instantiate(candy, transform.position + transform.forward + candy.transform.position, candy.transform.rotation);
                     }
-                    else if (_distanceFromPlayer < 2.5f)
+                    if (_distanceFromPlayer < 2.5f)
                     {
                         candy = candies[1];
+                        Instantiate(candy, transform.position + transform.forward + candy.transform.position, candy.transform.rotation);
                     }
-                    else
+                    if(_distanceFromPlayer < scareDistance)
                     {
                         candy = candies[0];
+                        Instantiate(candy, transform.position + transform.forward + candy.transform.position, candy.transform.rotation);
                     }
-
-                    Instantiate(candy, transform.position + transform.forward + candy.transform.position, candy.transform.rotation);
                     Flee();
                 }
             }

@@ -17,7 +17,7 @@ public class CandyScore : MonoBehaviour
     {
         if (other.gameObject.name == "Player")
         {
-            Debug.Log(candyScore);
+            GameState.UpdateScore(candyScore);
             _collider.enabled = false;
             Destroy(gameObject, 2f);
         }
