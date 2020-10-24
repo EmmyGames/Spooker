@@ -9,12 +9,27 @@ public class ChildController : MonoBehaviour
 {
     public NavMeshAgent agent;
     public GameObject player;
+    public Animator anim;
+    
     //public float fleeDistance;
     private RaycastHit _hit;
     private FieldOfView _fieldOfView;
     public float fleeDistance;
 
+    private const float TurnSmoothTime = 1f;
+    private float _turnSmoothVelocity;
+    private float _angle;
+    private float _theta;
+
+    public float scareDistance = 3.5f;
+
+    private float _distanceFromPlayer;
+    
     private bool _isScared = false;
+    
+    
+    
+    
     private void Start()
     {
         _fieldOfView = GetComponent<FieldOfView>();
@@ -23,20 +38,29 @@ public class ChildController : MonoBehaviour
     // Update is called once per frame
     private void Update()
     {
-
-        //ChildWander();
-
-        var distance = Vector3.Distance(transform.position, player.transform.position);
+        _distanceFromPlayer = Vector3.Distance(transform.position, player.transform.position);
         if (_fieldOfView.IsPlayerVisible())
             Flee();
+        if (Input.GetButtonDown("Scare") && !_isScared)
+        {
+            Scare();
+        }
+    }
+
+    private void FixedUpdate()
+    {
+        ChildWander();
     }
 
     private void Flee()
     {
-        //_isScared = true;
+        anim.SetBool("isRunning", true);
+        _isScared = true;
+        agent.speed = 7f;
         var position = transform.position;
         Vector3 posDiff = position - player.transform.position;
-        Vector3 destination = position + posDiff * fleeDistance;
+        Vector3 destination = (position + posDiff * fleeDistance);
+        destination = new Vector3(destination.x, 0, destination.z);
         agent.SetDestination(destination);
     }
 
@@ -44,39 +68,49 @@ public class ChildController : MonoBehaviour
     {
         if (!agent.hasPath && !agent.pathPending)
         {
-            //_isScared = false
-            if (Random.Range(0, 100) == 1)
+            anim.SetBool("isWalking", false);
+            anim.SetBool("isRunning", false);
+            agent.speed = 3.5f;
+            _isScared = false;
+            int rand = Random.Range(1, 301);
+            if (rand < 3)
             {
+                anim.SetBool("isWalking", true);
                 var randomDestination = Random.insideUnitSphere * 6;
                 agent.SetDestination(randomDestination);
             }
+            else if (rand > 296)
+            {
+                _theta = Random.Range(0, 360);
+            }
+            _angle = Mathf.SmoothDampAngle(transform.eulerAngles.y, _theta, ref _turnSmoothVelocity, TurnSmoothTime);
+            transform.rotation = Quaternion.Euler(0f, _angle, 0f);
         }
     }
 
-    private void OnTriggerStay(Collider other)
+    private void Scare()
     {
-        if (Input.GetButtonDown("Scare") && !_isScared)
+        if (_distanceFromPlayer <= scareDistance)
         {
-            Scare(other.transform.position);
+            if (Physics.Raycast(transform.position + new Vector3(0,1,0), player.transform.position - transform.position, out _hit, scareDistance))
+            {
+                if (_hit.collider.gameObject.name == "Player")
+                {
+                    if (_distanceFromPlayer < 1.5f)
+                    {
+                        Debug.Log("large");
+                    }
+                    else if (_distanceFromPlayer < 2.5f)
+                    {
+                        Debug.Log("medium");
+                    }
+                    else
+                    {
+                        Debug.Log("small");
+                    }
+                    Flee();
+                }
+            }
         }
-    }
-
-    private void Scare(Vector3 pos)
-    {
-        var distance = Vector3.Distance(transform.position, pos);
-        if (distance < 1.5f)
-        {
-            Debug.Log("large");
-        }
-        else if (distance < 2.5f)
-        {
-            Debug.Log("medium");
-        }
-        else
-        {
-            Debug.Log("small");
-        }
-        
-        Flee();
     }
 }

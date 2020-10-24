@@ -20,10 +20,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="43e6622d-31f4-4bd0-8f35-c1419151639d" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.GameJam1/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.GameJam1/.idea/contentModel.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.GameJam1/.idea/indexLayout.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.GameJam1/.idea/indexLayout.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.GameJam1/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.GameJam1/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animations/Child.controller" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Animations/Child.controller" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Materials/Skyboxes/NighttimeSky.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Materials/Skyboxes/NighttimeSky.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Level.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Level.unity" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/ChildController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/ChildController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/DayNightCycle.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/DayNightCycle.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/FieldOfView.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/FieldOfView.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,8 +48,9 @@
       <list>
         <option value="$PROJECT_DIR$/Assets/Scripts/CameraController.cs" />
         <option value="$PROJECT_DIR$/Assets/Editor/FieldOfViewEditor.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/FieldOfView.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/PlayerController.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/DayNightCycle.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/FieldOfView.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/ChildController.cs" />
       </list>
     </option>
@@ -91,7 +96,9 @@
       <option name="presentableId" value="Default" />
       <updated>1603497180732</updated>
       <workItem from="1603497185194" duration="10909000" />
-      <workItem from="1603510592975" duration="841000" />
+      <workItem from="1603510592975" duration="1270000" />
+      <workItem from="1603551524763" duration="4322000" />
+      <workItem from="1603559336864" duration="1112000" />
     </task>
     <servers />
   </component>
