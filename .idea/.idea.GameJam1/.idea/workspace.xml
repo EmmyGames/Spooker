@@ -20,86 +20,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="43e6622d-31f4-4bd0-8f35-c1419151639d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Assets/Art.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Art/Halloween Too.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Art/Halloween Too.ttf.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Art/Scary Halloween Font.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Art/Scary Halloween Font.ttf.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Art/UI Buttonsai.ai" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Art/UI Buttonsai.ai.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Materials/Child.mat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Materials/Child.mat.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Materials/Ground.mat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Materials/Ground.mat.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Materials/Pink.mat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Materials/Pink.mat.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Materials/Red.mat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Materials/Red.mat.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Materials/Yellow.mat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Materials/Yellow.mat.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Objects/Candy.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Objects/Candy/CANDY MASTER.blend" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Objects/Candy/CANDY MASTER.blend.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Objects/Candy/Candy 1.fbx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Objects/Candy/Candy 1.fbx.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Objects/Candy/Candy 2.fbx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Objects/Candy/Candy 2.fbx.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Objects/Candy/ChocolateBar.fbx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Objects/Candy/ChocolateBar.fbx.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Objects/Candy/Lollipop.fbx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Objects/Candy/Lollipop.fbx.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Objects/Environment.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/Candy 1.prefab" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/Candy 1.prefab.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/Candy 2.prefab" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/Candy 2.prefab.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/ChocolateBar.prefab" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/ChocolateBar.prefab.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/Lollipop.prefab" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/Lollipop.prefab.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.GameJam1/.idea/indexLayout.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.GameJam1/.idea/indexLayout.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.GameJam1/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.GameJam1/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Objects/Boulder 1.fbx" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Objects/Environment/Boulder 1.fbx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Objects/Boulder 1.fbx.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Objects/Environment/Boulder 1.fbx.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Objects/Boulder 2.fbx" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Objects/Environment/Boulder 2.fbx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Objects/Boulder 2.fbx.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Objects/Environment/Boulder 2.fbx.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Objects/Boulder 3.fbx" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Objects/Environment/Boulder 3.fbx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Objects/Boulder 3.fbx.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Objects/Environment/Boulder 3.fbx.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Objects/Boulder 4.fbx" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Objects/Environment/Boulder 4.fbx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Objects/Boulder 4.fbx.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Objects/Environment/Boulder 4.fbx.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Objects/Boulder 5.fbx" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Objects/Environment/Boulder 5.fbx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Objects/Boulder 5.fbx.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Objects/Environment/Boulder 5.fbx.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Objects/Dead Tree 1.fbx" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Objects/Environment/Dead Tree 1.fbx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Objects/Dead Tree 1.fbx.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Objects/Environment/Dead Tree 1.fbx.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Objects/Dead Tree 2.fbx" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Objects/Environment/Dead Tree 2.fbx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Objects/Dead Tree 2.fbx.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Objects/Environment/Dead Tree 2.fbx.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Objects/Dead Tree 3.fbx" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Objects/Environment/Dead Tree 3.fbx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Objects/Dead Tree 3.fbx.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Objects/Environment/Dead Tree 3.fbx.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Objects/Dead Tree 4.fbx" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Objects/Environment/Dead Tree 4.fbx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Objects/Dead Tree 4.fbx.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Objects/Environment/Dead Tree 4.fbx.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Objects/Dead Tree 5.fbx" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Objects/Environment/Dead Tree 5.fbx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Objects/Dead Tree 5.fbx.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Objects/Environment/Dead Tree 5.fbx.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Objects/GRAVEYARD MASTER.blend" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Objects/Environment/GRAVEYARD MASTER.blend" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Objects/GRAVEYARD MASTER.blend.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Objects/Environment/GRAVEYARD MASTER.blend.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Objects/JackOLantern.fbx" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Objects/Environment/JackOLantern.fbx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Objects/JackOLantern.fbx.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Objects/Environment/JackOLantern.fbx.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Objects/Pine Tree 1.fbx" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Objects/Environment/Pine Tree 1.fbx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Objects/Pine Tree 1.fbx.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Objects/Environment/Pine Tree 1.fbx.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Objects/Pine Tree 2.fbx" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Objects/Environment/Pine Tree 2.fbx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Objects/Pine Tree 2.fbx.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Objects/Environment/Pine Tree 2.fbx.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Objects/Pine Tree 3.fbx" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Objects/Environment/Pine Tree 3.fbx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Objects/Pine Tree 3.fbx.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Objects/Environment/Pine Tree 3.fbx.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Objects/Tombstone 1.fbx" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Objects/Environment/Tombstone 1.fbx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Objects/Tombstone 1.fbx.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Objects/Environment/Tombstone 1.fbx.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Objects/Tombstone 2.fbx" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Objects/Environment/Tombstone 2.fbx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Objects/Tombstone 2.fbx.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Objects/Environment/Tombstone 2.fbx.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Objects/Tombstone 3.fbx" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Objects/Environment/Tombstone 3.fbx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Objects/Tombstone 3.fbx.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Objects/Environment/Tombstone 3.fbx.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Objects/Tombstone 4.fbx" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Objects/Environment/Tombstone 4.fbx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Objects/Tombstone 4.fbx.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Objects/Environment/Tombstone 4.fbx.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Objects/Tombstone 5.fbx" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Objects/Environment/Tombstone 5.fbx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Objects/Tombstone 5.fbx.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Objects/Environment/Tombstone 5.fbx.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Level.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Level.unity" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -172,6 +93,7 @@
       <workItem from="1603510592975" duration="1270000" />
       <workItem from="1603551524763" duration="4322000" />
       <workItem from="1603559336864" duration="1375000" />
+      <workItem from="1603562067604" duration="54000" />
     </task>
     <servers />
   </component>
