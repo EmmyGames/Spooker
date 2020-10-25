@@ -12,11 +12,25 @@ public class FieldOfView : MonoBehaviour
     private RaycastHit _hit;
 
     public float meshResolution = 1f;
+
+    public MeshFilter viewMeshFilter;
+    private Mesh viewMesh;
     
+    private void Start()
+    {
+        _player = GameObject.FindGameObjectWithTag("Player");
+        
+        viewMesh = new Mesh();
+        viewMesh.name = "View Mesh";
+
+        viewMeshFilter.mesh = viewMesh;
+    }
     
-    
-    
-    
+    void LateUpdate()
+    {
+        DirectionFromAngle(viewAngle, false);
+        DrawFieldOfView();
+    }
     
     public Vector3 DirectionFromAngle(float angle, bool angleIsGlobal)
     {
@@ -43,11 +57,7 @@ public class FieldOfView : MonoBehaviour
     }
     
     // Start is called before the first frame update
-    private void Start()
-    {
-        _player = GameObject.FindGameObjectWithTag("Player");
-
-    }
+    
 
     private void DrawFieldOfView()
     {
@@ -65,8 +75,24 @@ public class FieldOfView : MonoBehaviour
         int vertexCount = viewPoints.Count + 1;
         Vector3[] vertices = new Vector3[vertexCount];
         int[] triangles = new int[(vertexCount - 2) * 3];
-        
-        
+
+        vertices[0] = Vector3.zero;
+        for (int i = 0; i < vertexCount-1; i++)
+        {
+            vertices[i+1] = transform.InverseTransformPoint(viewPoints[i]);
+
+            if (i < vertexCount - 2)
+            {
+                triangles[i * 3] = 0;
+                triangles[i * 3 + 1] = i + 1;
+                triangles[i * 3 + 2] = i + 2;
+            }
+        }
+
+        viewMesh.Clear();
+        viewMesh.vertices = vertices;
+        viewMesh.triangles = triangles;
+        viewMesh.RecalculateNormals();
     }
 
     private ViewCastInfo ViewCast(float globalAngle)
@@ -100,9 +126,5 @@ public class FieldOfView : MonoBehaviour
     }
     
     // Update is called once per frame
-    void Update()
-    {
-        DirectionFromAngle(viewAngle, false);
-        DrawFieldOfView();
-    }
+    
 }

@@ -130,6 +130,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1374670043}
     m_Modifications:
+    - target: {fileID: 1636718560, guid: 0ef7ebffe1f17f449ac1c8904aa8e33e, type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 4359574493437928281, guid: 0ef7ebffe1f17f449ac1c8904aa8e33e, type: 3}
       propertyPath: m_Name
       value: Player
@@ -137,6 +141,10 @@ PrefabInstance:
     - target: {fileID: 4359574493437928281, guid: 0ef7ebffe1f17f449ac1c8904aa8e33e, type: 3}
       propertyPath: m_TagString
       value: Player
+      objectReference: {fileID: 0}
+    - target: {fileID: 4359574493437928291, guid: 0ef7ebffe1f17f449ac1c8904aa8e33e, type: 3}
+      propertyPath: m_Enabled
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4359574493437928292, guid: 0ef7ebffe1f17f449ac1c8904aa8e33e, type: 3}
       propertyPath: walkSpeed

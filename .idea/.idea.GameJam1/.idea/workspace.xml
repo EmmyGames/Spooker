@@ -20,10 +20,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="43e6622d-31f4-4bd0-8f35-c1419151639d" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.GameJam1/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.GameJam1/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Materials/Skyboxes/NighttimeSky.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Materials/Skyboxes/NighttimeSky.mat" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Child 2 Variant.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Child 2 Variant.prefab" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Child 3 Variant.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Child 3 Variant.prefab" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Child Variant.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Child Variant.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Level.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Level.unity" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/FieldOfView.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/FieldOfView.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -107,6 +109,7 @@
       <workItem from="1603559336864" duration="1375000" />
       <workItem from="1603562067604" duration="54000" />
       <workItem from="1603562632821" duration="2917000" />
+      <workItem from="1603590336989" duration="2098000" />
     </task>
     <servers />
   </component>
