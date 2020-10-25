@@ -57,6 +57,7 @@ public class UIController : MonoBehaviour
             resumeButton.enabled = false;
             helpButton.enabled = false;
             quitButton.enabled = false;
+            helpScreen.enabled = false;
         }
     }
 
