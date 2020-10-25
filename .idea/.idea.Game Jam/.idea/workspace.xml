@@ -2,10 +2,20 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="105046d0-f805-4b4a-b889-0f2a422083ec" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.GameJam1/.idea/indexLayout.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.GameJam1/.idea/indexLayout.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.GameJam1/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.GameJam1/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Materials/Child.mat.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Materials/Child.mat.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Materials/Ground.mat.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Materials/Ground.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Art/Buttons/HelpScreen.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Art/Buttons/HelpScreen.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Art/Buttons/LoseScreen.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Art/Buttons/LoseScreen.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Art/Buttons/WinScreen.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Art/Buttons/WinScreen.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Audio/Clang.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Audio/Clang.wav.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Game Jam/.idea/indexLayout.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Game Jam/.idea/indexLayout.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Game Jam/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Game Jam/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Art/Buttons/UI Buttonsai.ai" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Art/Buttons/UI Buttonsai.ai" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Materials/Skyboxes/NighttimeSky.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Materials/Skyboxes/NighttimeSky.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Level.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Level.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -15,10 +25,14 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/ChildController.cs" root0="SKIP_HIGHLIGHTING" />
+  </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" />
+        <option value="$PROJECT_DIR$/Assets/Materials/Skyboxes/NighttimeSky.mat" />
       </list>
     </option>
   </component>
@@ -43,6 +57,8 @@
       <workItem from="1603509171913" duration="81000" />
       <workItem from="1603509336637" duration="278000" />
       <workItem from="1603561816064" duration="21000" />
+      <workItem from="1603589847279" duration="12000" />
+      <workItem from="1603589878465" duration="29000" />
     </task>
     <servers />
   </component>
