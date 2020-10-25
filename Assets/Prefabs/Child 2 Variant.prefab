@@ -190,6 +190,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   viewRadius: 5
   viewAngle: 90
+  meshResolution: 1
 --- !u!1001 &1619872001159313802
 PrefabInstance:
   m_ObjectHideFlags: 0

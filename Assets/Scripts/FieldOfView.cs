@@ -10,6 +10,13 @@ public class FieldOfView : MonoBehaviour
     private GameObject _player;
     
     private RaycastHit _hit;
+
+    public float meshResolution = 1f;
+    
+    
+    
+    
+    
     
     public Vector3 DirectionFromAngle(float angle, bool angleIsGlobal)
     {
@@ -24,7 +31,6 @@ public class FieldOfView : MonoBehaviour
         //if player is within the view angle
         if (Vector3.Angle(transform.forward, directionToPlayer) < viewAngle / 2)
         {
-            Debug.DrawRay(transform.position, directionToPlayer * 30, Color.green);
             if (Physics.Raycast(transform.position + new Vector3(0,1,0), directionToPlayer, out _hit, viewRadius))
             {
                 if (_hit.collider.gameObject.name == "Player")
@@ -40,32 +46,63 @@ public class FieldOfView : MonoBehaviour
     private void Start()
     {
         _player = GameObject.FindGameObjectWithTag("Player");
-        /*
-        Mesh mesh = new Mesh();
-        GetComponent<MeshFilter>().mesh = mesh;
-        
-        Vector3[] vertices = new Vector3[3];
-        Vector2[] uv = new Vector2[3];
-        int[] triangles = new int[3];
-
-        vertices[0] = Vector2.zero;
-        vertices[1] = new Vector3(50, 50);
-        vertices[2] = new Vector3(0, -50);
-
-        triangles[0] = 0;
-        triangles[1] = 1;
-        triangles[2] = 2;
-
-        mesh.vertices = vertices;
-        mesh.uv = uv;
-        mesh.triangles = triangles;
-        */
 
     }
 
+    private void DrawFieldOfView()
+    {
+        int stepCount = Mathf.RoundToInt(viewAngle * meshResolution);
+        float stepAngleSize = viewAngle / stepCount;
+        List<Vector3> viewPoints = new List<Vector3>();
+        for (int i = 0; i <= stepCount; i++)
+        {
+            float angle = transform.eulerAngles.y - viewAngle / 2 + stepAngleSize * i;
+            //Debug.DrawLine(transform.position, transform.position + DirectionFromAngle(angle, true) * viewRadius, Color.red);
+            ViewCastInfo newViewCast = ViewCast(angle);
+            viewPoints.Add(newViewCast.point);
+        }
+
+        int vertexCount = viewPoints.Count + 1;
+        Vector3[] vertices = new Vector3[vertexCount];
+        int[] triangles = new int[(vertexCount - 2) * 3];
+        
+        
+    }
+
+    private ViewCastInfo ViewCast(float globalAngle)
+    {
+        Vector3 dir = DirectionFromAngle(globalAngle, true);
+        RaycastHit hit;
+        if (Physics.Raycast(transform.position, dir, out hit, viewRadius))
+        {
+            return new ViewCastInfo(true, hit.point, hit.distance, globalAngle);
+        }
+        else
+        {
+            return new ViewCastInfo(false, transform.position + dir * viewRadius, viewRadius, globalAngle);
+        }
+    }
+
+    public struct ViewCastInfo
+    {
+        public bool hit;
+        public Vector3 point;
+        public float distance;
+        public float angle;
+
+        public ViewCastInfo(bool _hit, Vector3 _point, float _distance, float _angle)
+        {
+            hit = _hit;
+            point = _point;
+            distance = _distance;
+            angle = _angle;
+        }
+    }
+    
     // Update is called once per frame
     void Update()
     {
         DirectionFromAngle(viewAngle, false);
+        DrawFieldOfView();
     }
 }
