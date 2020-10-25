@@ -12,7 +12,10 @@ public class UIController : MonoBehaviour
     public Image restartButton;
     public Image helpButton;
     public Image quitButton;
-    //public Image helpScreen;
+    
+    public Image helpScreen;
+    public Image loseScreen;
+    public Image winScreen;
 
     void Start()
     {
@@ -22,7 +25,9 @@ public class UIController : MonoBehaviour
         restartButton.enabled = false;
         helpButton.enabled = false;
         quitButton.enabled = false;
-        //helpScreen.enabled = false;
+        helpScreen.enabled = false;
+        loseScreen.enabled = false;
+        winScreen.enabled = false;
     }
 
     void Update()
@@ -58,11 +63,11 @@ public class UIController : MonoBehaviour
     //HELP
     public void Help()
     {
-        //bring up Help Screen
         resumeButton.enabled = false;
         helpButton.enabled = false;
         quitButton.enabled = false;
         backButton.enabled = true;
+        helpScreen.enabled = true;
     }
 
     //QUIT
@@ -74,10 +79,10 @@ public class UIController : MonoBehaviour
     //BACK
     public void Back()
     {
-        //hide whatever menu and buttons are showing
         resumeButton.enabled = true;
         helpButton.enabled = true;
         quitButton.enabled = true;
         backButton.enabled = false;
+        helpScreen.enabled = false;
     }
 }
