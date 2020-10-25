@@ -60,7 +60,7 @@ public class PlayerController : MonoBehaviour
         if (_direction.magnitude > 1f)
             _direction = _direction.normalized;
         _targetAngle = Mathf.Atan2(_direction.x, _direction.z) * Mathf.Rad2Deg;
-        _angle = Mathf.SmoothDampAngle(transform.eulerAngles.y, _targetAngle, ref _turnSmoothVelocity, turnSmoothTime);
+        _angle = Mathf.SmoothDampAngle(transform.eulerAngles.y, _targetAngle - 90f, ref _turnSmoothVelocity, turnSmoothTime);
         
         if (_direction.magnitude > 0.1f)
         {
