@@ -20,26 +20,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="43e6622d-31f4-4bd0-8f35-c1419151639d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Assets/Animations/Ghost.controller" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Animations/Ghost.controller.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Art/Halloween Too SDF.asset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Art/Halloween Too SDF.asset.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Art/Scary Halloween Font SDF.asset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Art/Scary Halloween Font SDF.asset.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Materials/Black.mat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Materials/Black.mat.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Materials/White.mat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Materials/White.mat.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Art/Buttons/LoseScreen.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Art/Buttons/LoseScreen.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Art/Buttons/LoseScreen.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Art/Buttons/LoseScreen.png.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Art/Buttons/UI Buttonsai.ai" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Art/Buttons/UI Buttonsai.ai" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Art/Buttons/WinScreen.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Art/Buttons/WinScreen.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Art/Buttons/WinScreen.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Art/Buttons/WinScreen.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.GameJam1/.idea/indexLayout.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.GameJam1/.idea/indexLayout.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.GameJam1/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.GameJam1/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Art/Halloween Too SDF.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Art/Halloween Too SDF.asset" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Materials/Skyboxes/NighttimeSky.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Materials/Skyboxes/NighttimeSky.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Player.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Player.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Level.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Level.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/PlayerController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/PlayerController.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/UIController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/UIController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Materials/View Visualization.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Materials/View Visualization.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Child 2 Variant.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Child 2 Variant.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Child 3 Variant.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Child 3 Variant.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Child Variant.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Child Variant.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/FieldOfView.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/FieldOfView.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -63,7 +52,6 @@
       <list>
         <option value="$PROJECT_DIR$/Assets/Editor/FieldOfViewEditor.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/DayNightCycle.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scenes/Level.unity" />
         <option value="$PROJECT_DIR$/Assets/GameState.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/CandyScore.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/PlayerController.cs" />
@@ -72,6 +60,8 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/CountdownTimer.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/ChildController.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/UIController.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scenes/Level.unity" />
+        <option value="$PROJECT_DIR$/Assets/Materials/Skyboxes/NighttimeSky.mat" />
         <option value="$PROJECT_DIR$/Assets/Scripts/FieldOfView.cs" />
       </list>
     </option>
@@ -122,7 +112,8 @@
       <workItem from="1603559336864" duration="1375000" />
       <workItem from="1603562067604" duration="54000" />
       <workItem from="1603562632821" duration="2917000" />
-      <workItem from="1603590336989" duration="2696000" />
+      <workItem from="1603590336989" duration="2994000" />
+      <workItem from="1603593647828" duration="2261000" />
     </task>
     <servers />
   </component>
@@ -145,5 +136,11 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="937" y="256" width="686" height="888" key="find.popup" timestamp="1603594998407">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state x="937" y="256" width="686" height="888" key="find.popup/0.0.2560.1400/-2560.0.2560.1400@0.0.2560.1400" timestamp="1603594998407" />
   </component>
 </project>

@@ -45,7 +45,7 @@ public class FieldOfView : MonoBehaviour
         //if player is within the view angle
         if (Vector3.Angle(transform.forward, directionToPlayer) < viewAngle / 2)
         {
-            if (Physics.Raycast(transform.position + new Vector3(0,1,0), directionToPlayer, out _hit, viewRadius))
+            if (Physics.Raycast(transform.position + new Vector3(0,.55f,0), directionToPlayer, out _hit, viewRadius))
             {
                 if (_hit.collider.gameObject.name == "Player")
                 {
