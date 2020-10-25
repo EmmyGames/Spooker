@@ -8,10 +8,11 @@ public class GameState : MonoBehaviour
 {
     public TMP_Text score;
     private static int _totalScore;
+    private const int WIN_SCORE = 50;
     
     private void Start()
     {
-        score.text = "Candies: 0";
+        score.text = "Candies: 0/" + WIN_SCORE;
     }
     
     public static void UpdateScore(int candyScore)
@@ -21,6 +22,10 @@ public class GameState : MonoBehaviour
 
     private void Update()
     {
-        score.text = "Candies: " + _totalScore;
+        score.text = "Candies: " + _totalScore + "/" + WIN_SCORE;
+        if (_totalScore >= WIN_SCORE)
+        {
+            Debug.Log("win");
+        }
     }
 }

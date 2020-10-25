@@ -29,14 +29,18 @@ public class ChildController : MonoBehaviour
     private bool _isScared = false;
 
     public GameObject[] candies;
-
+    public AudioClip[] screams;
+    private AudioSource _audioSource;
     private Vector3 _startPos;
+
+    private const int TIME_PENALTY = 5;
     
     private void Start()
     {
         _fieldOfView = GetComponent<FieldOfView>();
         _startPos = new Vector3(100, 0, 100);
         _player = GameObject.FindGameObjectWithTag("Player");
+        _audioSource = GetComponent<AudioSource>();
     }
 
     // Update is called once per frame
@@ -44,7 +48,15 @@ public class ChildController : MonoBehaviour
     {
         _distanceFromPlayer = Vector3.Distance(transform.position, _player.transform.position);
         if (_fieldOfView.IsPlayerVisible())
+        {
+            if (!_isScared)
+            {
+                CountdownTimer.CurrentTime -= TIME_PENALTY;
+            }
+
             Flee();
+        }
+
         if (Input.GetButtonDown("Scare") && !_isScared)
         {
             Scare();
@@ -74,7 +86,7 @@ public class ChildController : MonoBehaviour
         {
             anim.SetBool("isWalking", false);
             anim.SetBool("isRunning", false);
-            agent.speed = 3.5f;
+            agent.speed = 4f;
             _isScared = false;
             int rand = Random.Range(1, 301);
             //Debug.Log(rand);
@@ -119,6 +131,8 @@ public class ChildController : MonoBehaviour
                         candy = candies[0];
                         Instantiate(candy, candOffset + candy.transform.position, candy.transform.rotation);
                     }
+                    AudioClip clip = screams[Random.Range(0, screams.Length)];
+                    _audioSource.PlayOneShot(clip);
                     Flee();
                 }
             }

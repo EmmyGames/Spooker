@@ -37,7 +37,7 @@ public class UIController : MonoBehaviour
     //PAUSE & RESUME
     public void Pause()
     {
-        if(Time.timeScale == 1)
+        if(Time.timeScale > 0f)
         {
             Time.timeScale = 0;
             blackOverlay.enabled = true;
@@ -59,6 +59,10 @@ public class UIController : MonoBehaviour
     public void Help()
     {
         //bring up Help Screen
+        resumeButton.enabled = false;
+        helpButton.enabled = false;
+        quitButton.enabled = false;
+        backButton.enabled = true;
     }
 
     //QUIT
@@ -71,6 +75,9 @@ public class UIController : MonoBehaviour
     public void Back()
     {
         //hide whatever menu and buttons are showing
+        resumeButton.enabled = true;
+        helpButton.enabled = true;
+        quitButton.enabled = true;
+        backButton.enabled = false;
     }
-
 }

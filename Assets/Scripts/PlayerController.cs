@@ -28,8 +28,7 @@ public class PlayerController : MonoBehaviour
     public bool isGrounded;
     
     private Vector3 _velocity = Vector3.zero;
-
-    public float maxScareDistance;
+    
     
     // Start is called before the first frame update
     void Start()
@@ -72,5 +71,7 @@ public class PlayerController : MonoBehaviour
         _velocity.y += Gravity * Time.deltaTime;
         cc.Move(_velocity * Time.deltaTime);
     }
+
+    
     
 }
