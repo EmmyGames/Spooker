@@ -7,7 +7,7 @@ public class CountdownTimer : MonoBehaviour
 {
     public static float CurrentTime = 0f;
     //Make this 1 second higher than you think, it floors the time
-    public const float START_TIME = 301f;
+    public const float START_TIME = 151f;
     private int _minutes;
     private int _seconds;
 

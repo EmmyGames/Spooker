@@ -8,7 +8,7 @@ public class GameState : MonoBehaviour
 {
     public TMP_Text score;
     private static int _totalScore;
-    private const int WIN_SCORE = 50;
+    private const int WIN_SCORE = 25;
     public UIController ui;
     
     private void Start()

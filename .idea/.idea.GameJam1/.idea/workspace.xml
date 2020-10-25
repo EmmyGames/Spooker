@@ -22,16 +22,12 @@
     <list default="true" id="43e6622d-31f4-4bd0-8f35-c1419151639d" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.GameJam1/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.GameJam1/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Materials/Skyboxes/NighttimeSky.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Materials/Skyboxes/NighttimeSky.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Candy 2.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Candy 2.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/ChocolateBar.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/ChocolateBar.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Lollipop.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Lollipop.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Level.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Level.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/CandyScore.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/CandyScore.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Child 2 Variant.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Child 2 Variant.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Child 3 Variant.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Child 3 Variant.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Child Variant.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Child Variant.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/ChildController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/ChildController.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/CountdownTimer.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/CountdownTimer.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/FieldOfView.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/FieldOfView.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/GameState.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/GameState.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/PlayerController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/PlayerController.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/UIController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/UIController.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -57,15 +53,15 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/DayNightCycle.cs" />
         <option value="$PROJECT_DIR$/Assets/GameState.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/CameraController.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/ChildController.cs" />
         <option value="$PROJECT_DIR$/Assets/Scenes/Level.unity" />
         <option value="$PROJECT_DIR$/Assets/Materials/Skyboxes/NighttimeSky.mat" />
         <option value="$PROJECT_DIR$/Assets/Scripts/CandyScore.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/FieldOfView.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/PlayerController.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/CountdownTimer.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/UIController.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/GameState.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/CountdownTimer.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/ChildController.cs" />
       </list>
     </option>
   </component>
@@ -117,7 +113,11 @@
       <workItem from="1603562632821" duration="2917000" />
       <workItem from="1603590336989" duration="2994000" />
       <workItem from="1603593647828" duration="2261000" />
-      <workItem from="1603599634286" duration="3769000" />
+      <workItem from="1603599634286" duration="4231000" />
+      <workItem from="1603645774709" duration="840000" />
+      <workItem from="1603657623127" duration="650000" />
+      <workItem from="1603659812187" duration="131000" />
+      <workItem from="1603659977164" duration="1244000" />
     </task>
     <servers />
   </component>

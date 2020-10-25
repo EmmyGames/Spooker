@@ -30,6 +30,7 @@ public class ChildController : MonoBehaviour
 
     public GameObject[] candies;
     public AudioClip[] screams;
+    public AudioClip timePenaltySound;
     private AudioSource _audioSource;
     private Vector3 _startPos;
 
@@ -52,6 +53,8 @@ public class ChildController : MonoBehaviour
             if (!_isScared)
             {
                 CountdownTimer.CurrentTime -= TIME_PENALTY;
+                AudioClip clip = timePenaltySound;
+                _audioSource.PlayOneShot(clip);
             }
 
             Flee();

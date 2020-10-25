@@ -176,6 +176,7 @@ MonoBehaviour:
   - {fileID: 8300000, guid: a59429769a7fc954eb2419d45c240f48, type: 3}
   - {fileID: 8300000, guid: 26b5f1ae141a9584893acd77f588a20b, type: 3}
   - {fileID: 8300000, guid: 332471418329ac641be7b7b6f9c6ed08, type: 3}
+  timePenaltySound: {fileID: 8300000, guid: 2573d38f4b8f36340b52551248b555b6, type: 3}
 --- !u!114 &1212048032
 MonoBehaviour:
   m_ObjectHideFlags: 0
