@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 7982137699176142386}
   - component: {fileID: 5269995222979650296}
   - component: {fileID: 2973048139202392760}
+  - component: {fileID: -178524939699799272}
   m_Layer: 0
   m_Name: Boulder 5
   m_TagString: Untagged
@@ -96,3 +97,19 @@ MeshCollider:
   m_Convex: 1
   m_CookingOptions: 30
   m_Mesh: {fileID: -6648681781384354596, guid: dc2f10200e3837847bb4feb6d8cf79af, type: 3}
+--- !u!208 &-178524939699799272
+NavMeshObstacle:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5918350910678532909}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Shape: 0
+  m_Extents: {x: 1.27, y: 0.693, z: 1.27}
+  m_MoveThreshold: 0.1
+  m_Carve: 0
+  m_CarveOnlyStationary: 1
+  m_Center: {x: 0.017, y: 0.28, z: -0.116000004}
+  m_TimeToStationary: 0.5
