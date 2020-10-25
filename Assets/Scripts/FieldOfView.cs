@@ -1,4 +1,5 @@
-﻿using System.Collections;
+﻿using System;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
@@ -15,10 +16,15 @@ public class FieldOfView : MonoBehaviour
 
     public MeshFilter viewMeshFilter;
     private Mesh viewMesh;
-    
-    private void Start()
+
+    private void Awake()
     {
         _player = GameObject.FindGameObjectWithTag("Player");
+    }
+
+    private void Start()
+    {
+        
         
         viewMesh = new Mesh();
         viewMesh.name = "View Mesh";

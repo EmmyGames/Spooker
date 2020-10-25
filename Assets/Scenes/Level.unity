@@ -500,7 +500,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 1957375085}
         m_TargetAssemblyTypeName: UIController, Assembly-CSharp
-        m_MethodName: Pause
+        m_MethodName: Restart
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -716,8 +716,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: 0:00
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 9e3961270f338eb4f93377cf49df6429, type: 2}
-  m_sharedMaterial: {fileID: 4909496867740681950, guid: 9e3961270f338eb4f93377cf49df6429, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 7bc8a597d0981f6499d38998c5f75ead, type: 2}
+  m_sharedMaterial: {fileID: 6091115047073643152, guid: 7bc8a597d0981f6499d38998c5f75ead, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -744,8 +744,8 @@ MonoBehaviour:
   m_outlineColor:
     serializedVersion: 2
     rgba: 4278190080
-  m_fontSize: 72
-  m_fontSizeBase: 72
+  m_fontSize: 42
+  m_fontSizeBase: 42
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -764,7 +764,7 @@ MonoBehaviour:
   m_enableWordWrapping: 1
   m_wordWrappingRatios: 0.4
   m_overflowMode: 0
-  m_firstOverflowCharacterIndex: -1
+  m_firstOverflowCharacterIndex: 0
   m_linkedTextComponent: {fileID: 0}
   parentLinkedComponent: {fileID: 0}
   m_isTextTruncated: 0
@@ -945,8 +945,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: 'Candies: 0'
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 9e3961270f338eb4f93377cf49df6429, type: 2}
-  m_sharedMaterial: {fileID: 4909496867740681950, guid: 9e3961270f338eb4f93377cf49df6429, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 7bc8a597d0981f6499d38998c5f75ead, type: 2}
+  m_sharedMaterial: {fileID: 6091115047073643152, guid: 7bc8a597d0981f6499d38998c5f75ead, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -973,8 +973,8 @@ MonoBehaviour:
   m_outlineColor:
     serializedVersion: 2
     rgba: 4278190080
-  m_fontSize: 72
-  m_fontSizeBase: 72
+  m_fontSize: 42
+  m_fontSizeBase: 42
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -993,7 +993,7 @@ MonoBehaviour:
   m_enableWordWrapping: 0
   m_wordWrappingRatios: 0.4
   m_overflowMode: 0
-  m_firstOverflowCharacterIndex: -1
+  m_firstOverflowCharacterIndex: 0
   m_linkedTextComponent: {fileID: 0}
   parentLinkedComponent: {fileID: 0}
   m_isTextTruncated: 0
@@ -1024,7 +1024,7 @@ MonoBehaviour:
     linkCount: 0
     lineCount: 1
     pageCount: 1
-    materialCount: 2
+    materialCount: 1
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
   m_spriteAnimator: {fileID: 0}
@@ -1918,6 +1918,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   score: {fileID: 736228286}
+  ui: {fileID: 1957375085}
 --- !u!114 &1957375087
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1930,6 +1931,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d9b238181d16d1b4d979883e2492f575, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  ui: {fileID: 1957375085}
   timerText: {fileID: 707942492}
 --- !u!1 &1965992997
 GameObject:

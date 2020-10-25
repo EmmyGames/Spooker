@@ -112,6 +112,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   candyScore: 1
+  biteSounds:
+  - {fileID: 8300000, guid: 282ba48b50dff3a41ba4c64236ca68cb, type: 3}
+  - {fileID: 8300000, guid: 16b8f80059e0d2d469ae6f59d41d63f7, type: 3}
+  - {fileID: 8300000, guid: 400117f2d0b620445bc32ae44683597a, type: 3}
 --- !u!54 &-3606398168361827648
 Rigidbody:
   m_ObjectHideFlags: 0

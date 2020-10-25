@@ -1,4 +1,5 @@
-﻿using System.Collections;
+﻿using System;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
@@ -29,7 +30,7 @@ public class PlayerController : MonoBehaviour
     
     private Vector3 _velocity = Vector3.zero;
     
-    
+
     // Start is called before the first frame update
     void Start()
     {

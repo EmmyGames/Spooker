@@ -1,7 +1,9 @@
-﻿using JetBrains.Annotations;
+﻿using System;
+using JetBrains.Annotations;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 using UnityEngine.UI;
 
 public class UIController : MonoBehaviour
@@ -16,6 +18,11 @@ public class UIController : MonoBehaviour
     public Image helpScreen;
     public Image loseScreen;
     public Image winScreen;
+
+    private void Awake()
+    {
+        Time.timeScale = 1f;
+    }
 
     void Start()
     {
@@ -85,5 +92,36 @@ public class UIController : MonoBehaviour
         quitButton.enabled = true;
         backButton.enabled = false;
         helpScreen.enabled = false;
+    }
+
+    public void Win()
+    {
+        Time.timeScale = 0;
+        winScreen.enabled = true;
+        restartButton.enabled = true;
+        quitButton.enabled = true;
+    }
+
+    public void Lose()
+    {
+        Time.timeScale = 0;
+        loseScreen.enabled = true;
+        restartButton.enabled = true;
+        quitButton.enabled = true;
+    }
+
+    public void Restart()
+    {
+        
+        /*
+        
+        CountdownTimer.ResetTimer();
+        winScreen.enabled = false;
+        loseScreen.enabled = false;
+        restartButton.enabled = false;
+        Pause();
+        */
+        GameState.ResetScore();
+        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
     }
 }

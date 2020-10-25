@@ -9,6 +9,7 @@ public class GameState : MonoBehaviour
     public TMP_Text score;
     private static int _totalScore;
     private const int WIN_SCORE = 50;
+    public UIController ui;
     
     private void Start()
     {
@@ -20,12 +21,16 @@ public class GameState : MonoBehaviour
         _totalScore += candyScore;
     }
 
+    public static void ResetScore()
+    {
+        _totalScore = 0;
+    }
     private void Update()
     {
         score.text = "Candies: " + _totalScore + "/" + WIN_SCORE;
         if (_totalScore >= WIN_SCORE)
         {
-            Debug.Log("win");
+            ui.Win();
         }
     }
 }
