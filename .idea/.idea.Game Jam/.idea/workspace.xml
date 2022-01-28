@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="105046d0-f805-4b4a-b889-0f2a422083ec" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/Assets/Animations/ghost walk.anim" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Animations/ghost walk.anim.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Art/Icon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Art/Icon.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Audio/Bite 1.mp3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Audio/Bite 1.mp3.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Audio/Bite 2.mp3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Audio/Bite 2.mp3.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Audio/Bite 3.mp3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Audio/Bite 3.mp3.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animations/Ghost.controller" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Animations/Ghost.controller" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animations/Ghost.controller.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Animations/Ghost.controller.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Materials/Skyboxes/NighttimeSky.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Materials/Skyboxes/NighttimeSky.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Boulder 1.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Boulder 1.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Boulder 2.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Boulder 2.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Boulder 3.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Boulder 3.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Boulder 4.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Boulder 4.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Boulder 5.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Boulder 5.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Dead Tree 1.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Dead Tree 1.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Dead Tree 2.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Dead Tree 2.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Dead Tree 3.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Dead Tree 3.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Dead Tree 4.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Dead Tree 4.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Dead Tree 5.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Dead Tree 5.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/JackOLantern.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/JackOLantern.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Pine Tree 1.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Pine Tree 1.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Pine Tree 2.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Pine Tree 2.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Pine Tree 3.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Pine Tree 3.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Tombstone 1.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Tombstone 1.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Tombstone 2.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Tombstone 2.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Tombstone 3.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Tombstone 3.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Tombstone 4.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Tombstone 4.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Tombstone 5.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Tombstone 5.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Level.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Level.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/DayNightCycle.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/DayNightCycle.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/UIController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/UIController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/ProjectSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/ProjectSettings.asset" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/ChildController.cs" root0="SKIP_HIGHLIGHTING" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" />
+        <option value="$PROJECT_DIR$/Assets/Materials/Skyboxes/NighttimeSky.mat" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="1jJ54omZStEH6mkPm8YfPTYbYWK" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="Discover.Launch.Via.Unity" value="true" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="105046d0-f805-4b4a-b889-0f2a422083ec" name="Default Changelist" comment="" />
+      <created>1603509167682</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1603509167682</updated>
+      <workItem from="1603509171913" duration="81000" />
+      <workItem from="1603509336637" duration="278000" />
+      <workItem from="1603561816064" duration="21000" />
+      <workItem from="1603589847279" duration="12000" />
+      <workItem from="1603589878465" duration="29000" />
+      <workItem from="1603599376791" duration="53000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="UnityProjectConfiguration" hasMinimizedUI="false" />
+  <component name="UnityUnitTestConfiguration" currentTestLauncher="EditMode" />
+  <component name="VcsManagerConfiguration">
+    <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
+  </component>
+</project>
